@@ -1,10 +1,39 @@
 
 
-.container-fluid {
+/* .container-fluid {
     border : 2px solid blue;
+} */
+a {
+    color : white;
+}
+.logo img {
+    height : 70px;
+    width : 80px;
 }
 
-.logo img {
-    height : 100px;
-    width : 100px;
+.email-symbol {
+    font-size : 20px;
+
+}
+.nav-item  {
+    border-right: 2px solid rgb(83, 172, 210);
+    padding: 2px;
+}
+.nav-item:hover {
+    transition : all .7s ease-out;
+    -webkit-box-shadow: 10px 10px 20px -11px rgba(41, 159, 202, 0.75);
+    -moz-box-shadow: 10px 10px 20px -11px rgba(41, 159, 202, 0.75);
+    box-shadow: 10px 10px 20px -11px rgba(41, 159, 202, 0.75);
+}
+.nav-link {
+    color : white;
+    font-size : 20px;
+}
+.dropdown-menu:hover {
+    color : black !important;
+}
+
+.carousel-item {
+    height : 60vh;
+    width : 100%;
 }
