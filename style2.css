@@ -46,7 +46,7 @@ nav img {
     position : absolute;
     z-index: -1;
     line-height: 170px;
-    color: rgb(250, 245, 245);
+    color: rgb(236, 227, 227);
     top : 0%;
     right : 10%;
     text-align: right;
@@ -64,13 +64,15 @@ nav img {
     padding : 20px;
     line-height: 2.5rem;
 }
+.product {
+    position : relative;
+}
 
 /* product section */
 .prd-heading {
     width : 100%;
     margin-left: auto;
 }
-
 
 /* cards section */
 
@@ -81,3 +83,51 @@ nav img {
     min-height : 300px;
 }
 
+/* contact us */
+
+.contact {
+    position : relative;
+}
+
+
+.contact .shadow-text {
+    top : -7%;
+}
+.contact-heading div {
+    font-size : 40px;
+}
+figure img{
+    height : 100px;  
+    width : 100px;
+}
+.phone_logo span{
+    font-size : 40px;
+    color : blue;
+}
+footer h3 {
+    margin : 0px;
+}
+
+/* media query */
+
+
+@media (max-width: 575.98px) { 
+    header {
+        height : 70px;
+        flex-direction: column;
+    }
+    .shadow-text{
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {  }
+
+
+@media (max-width: 991.98px) {  }
+
+
+@media (max-width: 1199.98px) {}
+
+
+@media (max-width: 1399.98px) { }
