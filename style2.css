@@ -134,7 +134,7 @@ footer h3 {
 }
 
 /* about page */
-.about-company-section {
+.company-section {
     background-color: rgb(241, 241, 241);
     padding-top: 50px;
     padding-bottom : 100px;
@@ -142,7 +142,7 @@ footer h3 {
     position : relative;
     /* z-index: ; */
 }
-.about-company-heading {
+.company-heading {
     position : relative;
     z-index: 99;
 }
@@ -166,6 +166,16 @@ footer h3 {
     
 }
 
+/* contact section  */
+.contact .shadow-text2{
+    left : 25%;
+}
+
+/* map */
+.map iframe{
+    height : 700px;
+    width : 100%;
+}
 /* media query */
 
 
@@ -176,6 +186,13 @@ footer h3 {
     }
     .shadow-text{
         display: none;
+    }
+    .shadow-text2{
+        display : none;
+    }
+    .about-image img {
+        height : 300px;
+        width : 400px;
     }
 }
 
