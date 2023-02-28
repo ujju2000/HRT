@@ -4,11 +4,26 @@
     padding : 0px;
     box-sizing: border-box;
 }
-a {
-    color : white !important;
+
+nav {
+    height : 70px;
+}
+.navbar {
+    padding : 40px 15px;
 }
 .nav-item {
     padding : 20px;
+}
+.nav-item a {
+    color : red;
+}
+.nav-link {
+    color : red;
+}
+
+ul li {
+    list-style-type: none;
+
 }
 header {
     height : 40px;
@@ -20,6 +35,33 @@ header {
     font-size : 20px;
     padding : 10px;
     color : white;
+}
+
+/* nav */ 
+/* listing styles */
+
+.list-title {
+    position : relative;
+    font-size : 18px;
+}
+.list-title li {
+    font-size : 20px;
+}
+
+.list-title li::after{
+    content : '';
+    position : absolute;
+    height : 10px;
+    width : 10px;
+    left : 0;
+    top : 30%;
+    background : #d82226;
+    border-radius: 50%;
+}
+
+.engines img{
+    height : 400px;
+    width : 400px;
 }
 
 header img {
@@ -74,10 +116,12 @@ nav img {
     margin-left: auto;
 }
 
+
 /* cards section */
 
 .card-img-top {
-    width : 80%;
+    height : 50%;
+    width : 30%;
     margin : auto;
     margin-top: 10px;
     min-height : 300px;
@@ -124,6 +168,9 @@ footer h3 {
     justify-content: center;
     align-items: center;
 }
+.whatsapp a{
+    color : white;
+}
 .fa-whatsapp {
     
     font-size : 40px;
@@ -146,6 +193,7 @@ footer h3 {
     position : relative;
     z-index: 99;
 }
+
 .shadow-text2{
     color : rgb(255, 255, 255);
     position : absolute;
